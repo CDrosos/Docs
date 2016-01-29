@@ -9,7 +9,7 @@ For most apps, the migration process is non-trivial, and will require dedicated 
 
 Following this schedule will give you time to develop your own Parse Server, as well as train your development team to maintain and scale the service.
 
-This migration guide assumes the use of Heroku and MongoLab. These two services are easy to use, especially if you are new to deploying and managing your own backend stack. But, you can elect to use any infrastructure provider that supports Node.js environments.
+This migration guide assumes the use of Heroku and MongoLab. These two services are easy to use, especially if you are new to deploying and managing your own backend stack. But, you can select to use any infrastructure provider that supports Node.js environments.
 
 After completion, you will have the following:
 
@@ -37,7 +37,7 @@ Connect to your Mongo instance and browse through the collections in the newly c
 
 Once you're satisfied, you can finalize the transfer in the migration UI and your app will be using the new MongoDB instance. At this point, your app is still hitting `api.parse.com`, but is using your MongoDB instance. You will need to administrate your database instance yourself, including maintaining indexes and scaling up.
 
-Note that you can elect to skip migrating your data and test the functionality of your Parse Server hosted app with a blank database. You can always migrate your data later.
+Note that you can select to skip migrating your data and test the functionality of your Parse Server hosted app with a blank database. You can always migrate your data later.
 
 **2. Set Up Local Parse Server**
 
